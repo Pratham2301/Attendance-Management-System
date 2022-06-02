@@ -12,7 +12,7 @@ public class AutoTimeGenerator {
         return ans;
     }
 
-    // generates random time between 1-11 hr
+    // generates random time between 10-24 hr
     static int generate_exit_hour() {
         int ans = (int) (10 + (Math.random() * 14));
         return ans;
